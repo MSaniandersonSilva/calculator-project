@@ -28,24 +28,16 @@ body {
     color: #777;
 }
 
-#operations {
+#result {
+    height: 100px;
+    color: #444;
     text-align: right;
-}
-
-#previous-operation,
-#current-operation {
-    min-height: 1.6em;
+    font-size: 2.4em;
     overflow-wrap: break-word;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #aca9a9;
     padding: .2em;
-}
-
-#previous-operation {
-    color: #555;
-    
-}
-
-#current-operation {
-    font-size: 3em;
+    min-height: 1.6em;
     font-weight: 600;
 }
 
@@ -62,6 +54,15 @@ body {
     font-size: 1.2em;
     background-color: #dbdbdb;
     cursor: pointer;
+}
+
+#buttons-container #btn-ac {
+    grid-column: span 2;
+    background-color: #75a5db;
+}
+
+#buttons-container #btn-ac:hover {
+    background-color: #3a91b8;
 }
 
 #buttons-container .number {
